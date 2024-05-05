@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Shophome />} />
+          <Route path="/shop" element={<Shophome />} />
           <Route
             path="/mens"
             element={<Shopcategory banner={mens_banner} category="men" />}
